@@ -7,104 +7,29 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <style>
-        #myCarousel img {
-            width: 100%;
-            height: auto;
-        }
+    <link rel="stylesheet" href="style_visit_page.css">
 
-        .carousel-inner {
-            position: relative;
-            width: 100%;
-            padding-top: 55%; 
-            overflow: hidden;
-        }
-
-        .carousel-inner .item {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-        }
-        body {
-            font-family: Arial, sans-serif;
-            font-size: 25px; 
-        }
-        nav ul {
-            list-style: none;
-        }
-        nav ul li {
-            display: inline;
-            margin-right: 5px;
-        }
-        nav ul li a {
-            font-weight: bold;
-        }
-        header {
-            text-align: center;
-            margin-bottom: 2rem; 
-        }
-        main {
-            display: flex;
-            flex-direction: row;
-        }
-        section ul {
-            list-style: none;
-            padding: 0;
-        }
-        section {
-            margin-bottom: 2rem; 
-        }
-    
-        section p {
-            margin-bottom: 1.5rem; 
-        }
-    
-        section img {
-            max-width: 100%; 
-            height: auto; 
-            margin-bottom: 1rem; 
-        }
-        section iframe {
-            max-width: 100%;
-            width:700px;
-            height: auto;
-            border: 1px solid black;
-        }
-        
-    
-        @media (max-width: 768px) { 
-            body {
-                font-size: 14px; 
-            }
-            section img {
-                max-width: 100%; 
-                height: auto; 
-            }
-        }
-
-
-    </style>
     
 
 </head>
 
 <body>
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="index.html">Cairo</a>
-          </div>
-          <ul class="nav navbar-nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#">History</a></li>
-            <li class="active"><a href="#">Visit</a></li>
-          </ul>
-        </div>
-      </nav>
+    <div class="container-black">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">Cairo</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">History</a></li>
+                <li class="active"><a href="#">Visit</a></li>
+            </ul>
+            </div>
+        </nav>
+
       <div class="container"> 
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div id="myCarousel" class="carousel slide custom-carousel" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -172,109 +97,144 @@
         </div>
       </div>
       
-    <header>
-        <h1>places to visit in cairo</h1>
-        <p>Discover the rich history and vibrant culture of our city</p>
-    </header>
+        <header>
+            <h1>Places to visit in cairo</h1>
+            <p>A must-visit places to experiencing the best of Cairo</p>
+            <p>Merna Iskander</p>
+            <p>Date: March 15, 2024</p>
+        </header>
+</div>
 
     <main>
-        <section>
-            <div class="row">
-                <section class="col-lg-7">
-                    <div class="place-info">
-                        <h3>Pyramids of Giza</h3>
-                        <img src="images/Giza-Pyramids-Cairo.jpg" alt="Pyramids of Giza">
-                    </div>
+        <ul>
 
-                </section>
-                <aside class="col-lg-5">
-                    <p>These ancient wonders are one of the most iconic landmarks in the world. 
-                        The Great Pyramid of Giza is the oldest and largest of the three pyramids, 
-                        and visitors can also see the Sphinx nearby. Marvel at the awe-inspiring 
-                        architecture of the Pyramids of Giza and take a camel ride around the 
-                        iconic structures. Venture inside the Great Pyramid to explore its mysterious 
-                        chambers and intricate passageways for an unforgettable adventure.</p>
-                    <div class="map-container">
-                        <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=30.70335388183594%2C29.603312249075124%2C31.60972595214844%2C30.113057804059526&amp;layer=mapnik&amp;marker=29.858213283018408%2C31.156882549999978" style="border: 1px solid black"></iframe><br/>
-                        <small><a href="https://www.openstreetmap.org/?mlat=29.8582&amp;mlon=31.1569#map=11/29.8585/31.1565">Visa större karta</a></small>
-                    </div>
-                </aside>
+        <li>
+            <div class="col-lg-7">
+                <div class="place-info">
+                    <h3>Pyramids of Giza</h3>
+                    <img src="images/Giza-Pyramids-Cairo.jpg" alt="Pyramids of Giza">
+                </div>
             </div>
-            <h3>Pyramids of Giza</h3>
-                        <img src="images/Giza-Pyramids-Cairo.jpg" alt="no pic found"><br>
-                        <p>These ancient wonders are one of the most iconic landmarks in the world. 
-                        The Great Pyramid of Giza is the oldest and largest of the three pyramids, 
-                        and visitors can also see the Sphinx nearby. Marvel at the awe-inspiring 
-                        architecture of the Pyramids of Giza and take a camel ride around the iconic 
-                        structures. Venture inside the Great Pyramid to explore its mysterious 
-                        chambers and intricate passageways for an unforgettable adventure.</p> 
-                        <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=30.70335388183594%2C29.603312249075124%2C31.60972595214844%2C30.113057804059526&amp;layer=mapnik&amp;marker=29.858213283018408%2C31.156882549999978" style="border: 1px solid black"></iframe><br/>
-                        <small><a href="https://www.openstreetmap.org/?mlat=29.8582&amp;mlon=31.1569#map=11/29.8585/31.1565">Visa större karta</a></small>
-             <h3>Egyptian Museum</h3>
-                        <img src="images/The-Egyptian-Museum-Trips-in-Egypt.jpg" alt="no pic found"><br>
-                        <p>Located in Tahrir Square, the Egyptian Museum houses a vast collection of 
-                        artifacts, including treasures from Tutankhamun's tomb, mummies, and ancient 
-                        Egyptian art. Embark on a journey through time as you explore the vast 
-                        collection of artifacts at the Egyptian Museum. Don't miss the chance to attend
-                        a guided tour or lecture to gain deeper insights into Egypt's fascinating 
-                        history and archaeology.</p>
-                        <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=31.219432353973392%2C30.039897717949216%2C31.247756481170658%2C30.055796996034978&amp;layer=mapnik&amp;marker=30.047847676012697%2C31.23359441757202" style="border: 1px solid black">
-                        </iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=30.0478&amp;mlon=31.2336#map=16/30.0478/31.2336">Visa större karta</a></small>
-                    
-            <h3>Khan El Khalili Bazaar</h3>
-                        <img src="images/Giza-Pyramids-Cairo.jpg" alt="no pic found">
-                        <p>This historic market is a labyrinth of narrow streets filled with shops selling 
-                        traditional crafts, spices, jewelry, and souvenirs. It's a vibrant place to 
-                        experience Cairo's culture and haggle for unique items. Dive into the bustling 
-                        atmosphere of Khan El Khalili Bazaar and practice your bargaining skills as you 
-                        shop for souvenirs, spices, and traditional handicrafts. Indulge in the flavors 
-                        of Egyptian street food and sip on aromatic tea at one of the charming cafes lining 
-                        the streets.</p>
-                        <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=31.20451927185059%2C30.016341294230976%2C31.317815780639652%2C30.079938213720904&amp;layer=mapnik&amp;marker=30.048144858335455%2C31.261167526245117" 
-                        style="border: 1px solid black">
-                    </iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=30.0481&amp;mlon=31.2612#map=14/30.0481/31.2612"></a></small>
+            <div class="col-lg-5">
+                <p><iframe class="float-image" src="https://www.openstreetmap.org/export/embed.html?bbox=30.70335388183594%2C29.603312249075124%2C31.60972595214844%2C30.113057804059526&amp;layer=mapnik&amp;marker=29.858213283018408%2C31.156882549999978" style="border: 1px solid black"></iframe>
+                    These ancient wonders are one of the most iconic landmarks in the world. 
+                    The Great Pyramid of Giza is the oldest and largest of the three pyramids, 
+                    and visitors can also see the Sphinx nearby. Marvel at the awe-inspiring 
+                    architecture of the Pyramids of Giza and take a camel ride around the 
+                    iconic structures. Venture inside the Great Pyramid to explore its mysterious 
+                    chambers and intricate passageways for an unforgettable adventure.</p>
+            </div>
+        </li>
 
-            <h3>Saladin Citadel</h3>
-                        <img src="images/Citadel+3.jpg" alt="no pic found">
-                        <p>Situated proudly atop the Mokattam Hills, the Saladin Citadel stands as a testament
-                         to Cairo's rich history and resilience. Built by the legendary Muslim leader Saladin
-                         in the 12th century, this formidable fortress offers visitors a captivating journey 
-                         through time. You will discover its fascinating military history and architectural 
-                         wonders. Also visit the Mosque of Muhammad Ali to admire its stunning Ottoman-era 
-                         design and panoramic vistas of Cairo.</p>
-                         <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=31.24792814254761%2C30.0213762999153%2C31.276252269744877%2C30.03727855000471&amp;layer=mapnik&amp;marker=30.029326188535443%2C31.262100850000024" style="border: 1px solid black"></iframe><br/>
-                         <small><a href="https://www.openstreetmap.org/?mlat=30.0293&amp;mlon=31.2621#map=16/30.0293/31.2621">Visa större karta</a></small>
-                    
-            <h3>Muizz Street</h3>
-                        <img src="images/Muizz-Street13.jpg" alt="no pic found"><br>
-                        <p>Known as one of the oldest streets in Cairo, Al-Muizz Street is lined with historic 
-                        buildings, mosques, and medieval gateways. It's a great place to take a walk and admire 
-                        the stunning architecture. You can also visit workshops and studios where skilled 
-                        craftsmen and women practice traditional crafts such as pottery, woodworking, and 
-                        metalworking, and even try your hand at creating your own masterpiece.</p>
-                        <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=31.258300244808197%2C30.04573486973376%2C31.26184076070786%2C30.047722301952867&amp;layer=mapnik&amp;marker=30.046727800012626%2C31.260071299999936" style="border: 1px solid black"></iframe><br/>
-                        <small><a href="https://www.openstreetmap.org/?mlat=30.04673&amp;mlon=31.26007#map=19/30.04673/31.26007">Visa större karta</a></small>
-                    
-            <h3>Hanging Church (Saint Virgin Mary's Coptic Orthodox Church)</h3>
-                        <img src="images/HangingChurch2.jpg" alt="no pic found"><br>
-                        <p>This historic church, also known as Al-Muallaqa, is one of the oldest and most iconic Coptic 
-                        churches in Egypt. Its significance lies not only in its age but also in its architectural 
-                        beauty and religious importance. The church is renowned for its exquisite Coptic artwork, 
-                        including intricate wood carvings, vibrant icons, and ancient frescoes depicting biblical scenes 
-                        and saints.</p>
-                        <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=31.226626038551334%2C30.003264878069825%2C31.23370707035065%2C30.00724140582707&amp;layer=mapnik&amp;marker=30.005251701122713%2C31.230166499999996" style="border: 1px solid black"></iframe><br/>
-                        <small><a href="https://www.openstreetmap.org/?mlat=30.00525&amp;mlon=31.23017#map=18/30.00525/31.23017">Visa större karta</a></small>
-            <h3>Nile River Cruise</h3>
-                    <img src="images/Nile_River_Cruise.jpg" alt="no pic found"><br>
+        <li>
+            <div class="col-lg-7">
+                <div class="place-info">
+                    <h3>Egyptian Museum</h3>
+                    <img src="images/The-Egyptian-Museum-Trips-in-Egypt.jpg" alt="Egyptian Museum">
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <p><iframe class="float-image" src="https://www.openstreetmap.org/export/embed.html?bbox=31.219432353973392%2C30.039897717949216%2C31.247756481170658%2C30.055796996034978&amp;layer=mapnik&amp;marker=30.047847676012697%2C31.23359441757202" style="border: 1px solid black"></iframe>
+                    Located in Tahrir Square, the Egyptian Museum houses a vast collection of 
+                    artifacts, including treasures from Tutankhamun's tomb, mummies, and ancient 
+                    Egyptian art. Embark on a journey through time as you explore the vast 
+                    collection of artifacts at the Egyptian Museum. Don't miss the chance to attend
+                    a guided tour or lecture to gain deeper insights into Egypt's fascinating 
+                    history and archaeology.</p>
 
-                        <p>Experience Cairo from the water by taking a dinner cruise along the Nile River. Enjoy traditional 
-                        Egyptian cuisine, live music, and breathtaking views of the city skyline and illuminated landmarks. </p>
+            </div>
+        </li>
 
-        </section>
+        <li>
+            <div class="col-lg-7">
+                <div class="place-info">
+                    <h3>Saladin Citadel</h3>
+                    <img src="images/Citadel+3.jpg" alt="no pic found">
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <p><iframe class="float-image" src="https://www.openstreetmap.org/export/embed.html?bbox=31.24792814254761%2C30.0213762999153%2C31.276252269744877%2C30.03727855000471&amp;layer=mapnik&amp;marker=30.029326188535443%2C31.262100850000024" style="border: 1px solid black"></iframe>
+                    Situated proudly atop the Mokattam Hills, the Saladin Citadel stands as a testament
+                    to Cairo's rich history and resilience. Built by the legendary Muslim leader Saladin
+                    in the 12th century, this formidable fortress offers visitors a captivating journey 
+                    through time. You will discover its fascinating military history and architectural 
+                    wonders. Also visit the Mosque of Muhammad Ali to admire its stunning Ottoman-era 
+                    design and panoramic vistas of Cairo.</p>
+            </div>
+        </li>
 
+
+        <li>
+            <div class="col-lg-7">
+                <div class="place-info">
+                    <h3>Muizz Street</h3>
+                    <img src="images/Muizz-Street13.jpg" alt="no pic found">
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <p><iframe class="float-image" src="https://www.openstreetmap.org/export/embed.html?bbox=31.258300244808197%2C30.04573486973376%2C31.26184076070786%2C30.047722301952867&amp;layer=mapnik&amp;marker=30.046727800012626%2C31.260071299999936" style="border: 1px solid black"></iframe>
+                    Known as one of the oldest streets in Cairo, Al-Muizz Street is lined with historic 
+                    buildings, mosques, and medieval gateways. It's a great place to take a walk and admire 
+                    the stunning architecture. You can also visit workshops and studios where skilled 
+                    craftsmen and women practice traditional crafts such as pottery, woodworking, and 
+                    metalworking, and even try your hand at creating your own masterpiece.</p>
+            </div>
+        </li>
+
+
+        <li>
+            <div class="col-lg-7">
+                <div class="place-info">
+                    <h3>Hanging Church (Saint Virgin Mary's Coptic Orthodox Church)</h3>
+                    <img src="images/HangingChurch2.jpg" alt="no pic found">
+                </div>
+            </div>
+
+            <div class="col-lg-5">
+                <p><iframe class="float-image" src="https://www.openstreetmap.org/export/embed.html?bbox=31.226626038551334%2C30.003264878069825%2C31.23370707035065%2C30.00724140582707&amp;layer=mapnik&amp;marker=30.005251701122713%2C31.230166499999996" style="border: 1px solid black"></iframe>
+                    This historic church, also known as Al-Muallaqa, is one of the oldest and most iconic Coptic 
+                    churches in Egypt. Its significance lies not only in its age but also in its architectural 
+                    beauty and religious importance. The church is renowned for its exquisite Coptic artwork, 
+                    including intricate wood carvings, vibrant icons, and ancient frescoes depicting biblical scenes 
+                    and saints.</p>
+            </div>
+        </li>
+
+
+        <li>
+            <div class="col-lg-7">
+                <div class="place-info">
+                    <h3>Nile River Cruise</h3>
+                    <img src="images/Nile_River_Cruise.jpg" alt="no pic found">
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <p>Experience Cairo from the water by taking a dinner cruise along the Nile River. Enjoy traditional 
+                    Egyptian cuisine, live music, and breathtaking views of the city skyline and illuminated landmarks. </p>
+                <a href="https://nilecruisers.com/">Book here</a>
+            </div>
+        </li>
+
+        <li>
+            <div class="col-lg-7">
+                <div class="place-info">
+                    <h3>Khan El Khalili Bazaar</h3>
+                    <img src="images/khan-el-khalili-m.avif" alt="no pic found">
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <p><iframe class="float-image" src="https://www.openstreetmap.org/export/embed.html?bbox=31.20451927185059%2C30.016341294230976%2C31.317815780639652%2C30.079938213720904&amp;layer=mapnik&amp;marker=30.048144858335455%2C31.261167526245117" style="border: 1px solid black"></iframe>This historic market is a labyrinth of narrow streets filled with shops selling 
+                    traditional crafts, spices, jewelry, and souvenirs. It's a vibrant place to 
+                    experience Cairo's culture and haggle for unique items. Dive into the bustling 
+                    atmosphere of Khan El Khalili Bazaar and practice your bargaining skills as you 
+                    shop for souvenirs, spices, and traditional handicrafts. Indulge in the flavors 
+                    of Egyptian street food and sip on aromatic tea at one of the charming cafes lining 
+                    the streets.</p>
+            </div>
+        </li>
+    </ul>
     </main>
-
-
+    
 </body>
 </html>
 
