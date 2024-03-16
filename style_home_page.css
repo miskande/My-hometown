@@ -46,9 +46,40 @@ header {
     margin-bottom: 2rem; 
     background-color: black;
     color: white; 
+    font-size: 20px;
+}
+
+.title{
+    font-size: 70px;
 }
 
 body {
     font-family:monospace;
-    font-size: 20px; 
+    font-size: 35px;
+    margin:0%; 
+}
+
+
+.main-list li{
+    list-style-position: inside; 
+    list-style-type: none;
+    margin-top: 2cm;
+}
+
+.main-list li h2{
+    font-size: 60px;
+    margin-bottom: 1cm;
+}
+
+.float-image{
+    float: right;
+    width: 600px;
+    height:450px;
+    /* margin-top: 2cm; */
+}
+
+
+
+.food-list p{
+    margin-top: 1cm;
 }
