@@ -156,10 +156,10 @@ main ul{
 }
 
 .history-intro{
-    margin-left: 1cm; 
-    margin-bottom: 3cm; 
-    font-size: 50px;
+    font-size: 40px;
 }
+
+
 @media (max-width: 768px) { 
     body {
         font-size: 15px; 
